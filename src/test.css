@@ -1,0 +1,53 @@
+@alias {
+  fs: font-size;
+  fw: font-weight;
+  bg: background;
+}
+body {
+    font-family:"Indie Flower";
+    background: color(red alpha(-10%));
+}
+a {
+    display: flex;
+    box-shadow: 0 0 5px #ff66aa;
+    border-radius: 5px;
+    transition:all 10s;
+}
+.cssnext {
+  background: color(red alpha(-10%));
+}
+.topcenter{
+    top: center;
+}
+.leftcenter{
+    left: center;
+}
+.centertest{
+    top: center;
+    left: center;
+}
+
+.precsstest {
+  @if 3 < 5 {
+    background: green;
+  }
+  @else {
+    background: blue;
+  }
+}
+.footer{
+    fs: 16px;
+    fw: 400;
+    transition: bg 200ms ease;
+}
+.isosceles-triangle {
+    triangle: pointing-right;
+    width: 150px;
+    height: 115px;
+    background-color: red;
+}
+.equilateral-triangle {
+    triangle: equilateral pointing-up;
+    height: 100px;
+    background-color: red;
+}

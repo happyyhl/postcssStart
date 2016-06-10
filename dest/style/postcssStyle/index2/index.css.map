@@ -1,0 +1,1 @@
+{"version":3,"sources":["index.css"],"names":[],"mappings":"AAAA;EACE,YAAY,EAAE;;AAEhB;EACE,YAAY,EAAE;;AAEhB;EACE,YAAY,EAAE","file":"index.css","sourcesContent":["p .xx {\n  color: #ccc; }\n\np .yy {\n  color: #fff; }\n\np .zz {\n  color: #000; }\n"],"sourceRoot":"/source/"}

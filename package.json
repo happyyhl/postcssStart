@@ -1,0 +1,37 @@
+{
+  "name": "postcsstest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "autoprefixer": "^6.3.6",
+    "cssgrace": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-compass": "^2.1.0",
+    "gulp-group-files": "^2.0.0",
+    "gulp-postcss": "^6.1.1",
+    "gulp-sass": "^2.3.1",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-uglify": "^1.5.3",
+    "postcss-alias": "^0.2.2",
+    "postcss-all-link-colors": "^1.0.1",
+    "postcss-center": "^1.0.0",
+    "postcss-circle": "^1.0.0",
+    "postcss-clearfix": "^1.0.0",
+    "postcss-color-short": "^0.2.2",
+    "postcss-crip": "^2.0.0",
+    "postcss-font-magician": "^1.4.0",
+    "postcss-position": "^0.5.0",
+    "postcss-scss": "^0.1.8",
+    "postcss-size": "^1.0.0",
+    "postcss-triangle": "^1.0.1",
+    "postcss-verthorz": "^0.6.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

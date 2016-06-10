@@ -1,0 +1,67 @@
+@font-face {
+  font-family: "Indie Flower";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Indie Flower"),local(IndieFlower),url(//fonts.gstatic.com/s/indieflower/v7/10JVD_humAd5zP2yrFqw6nZ2MAKAc2x4R1uOSeegc5U.eot?#) format("eot"),url(//fonts.gstatic.com/s/indieflower/v7/10JVD_humAd5zP2yrFqw6ugdm0LZdjqr5-oayXSOefg.woff2) format("woff2"),url(//fonts.gstatic.com/s/indieflower/v7/10JVD_humAd5zP2yrFqw6nhCUOGz7vYGh680lGh-uXM.woff) format("woff"); }
+
+body {
+  font-family: "Indie Flower";
+  background: color(red opacity(-10%)); }
+
+a {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-shadow: 0 0 5px #ff66aa;
+          box-shadow: 0 0 5px #ff66aa;
+  -webkit-border-radius: 5px;
+          border-radius: 5px;
+  -webkit-transition: all 10s;
+  transition: all 10s; }
+
+.cssnext {
+  background: color(red opacity(-10%)); }
+
+.topcenter {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%); }
+
+.leftcenter {
+  position: absolute;
+  left: 50%;
+  margin-right: -50%;
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%); }
+
+.centertest {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%); }
+
+.precsstest {
+  background: green; }
+
+.footer {
+  font-size: 16px;
+  font-weight: 400;
+  -webkit-transition: background 200ms ease;
+  transition: background 200ms ease; }
+
+.isosceles-triangle {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-color: transparent;
+  border-width: 57.5px 0 57.5px 150px;
+  border-left-color: red; }
+
+/*# sourceMappingURL=index.css.map */
