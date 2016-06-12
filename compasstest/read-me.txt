@@ -1,0 +1,10 @@
+1. gem update --system
+2. gem install compass
+3. compass create myproject
+4. cd myproject
+
+5. compass compile   
+5.1 compass compile --output-style compressed
+5.2 compass compile --force
+
+6 compass watch
