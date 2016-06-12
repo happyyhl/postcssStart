@@ -1,0 +1,231 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 5, ../../../ruby/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../ruby/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../ruby/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../ruby/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../ruby/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../ruby/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../ruby/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../ruby/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../ruby/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 152, logo/*.png */
+.logo-sprite, .logo-iconfont-denglumima, .logo-iconfont-fanhuidingbu, .logo-iconfont-shoujibangding, .logo-iconfont-shuaxin, .logo-iconfont-tuichu, .logo-iconfont-zhaohuimima, .logo-iconfont-zhifubao, .logo-m-index_16, .logo-news_05, .logo-news_06, .logo-news_08, .logo-qiandao, .main-logo {
+  background-image: url('../images/logo-s4be50ac87b.png');
+  background-repeat: no-repeat;
+}
+
+/* line 84, ../../../ruby/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.logo-iconfont-denglumima {
+  background-position: 0 0;
+  height: 64px;
+  width: 64px;
+}
+/* line 59, ../../../ruby/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.logo-iconfont-denglumima:active, .logo-iconfont-denglumima.iconfont-denglumima-active {
+  background-position: 0 -64px;
+}
+
+/* line 84, ../../../ruby/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.logo-iconfont-fanhuidingbu {
+  background-position: 0 -128px;
+  height: 64px;
+  width: 64px;
+}
+/* line 59, ../../../ruby/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.logo-iconfont-fanhuidingbu:hover, .logo-iconfont-fanhuidingbu.iconfont-fanhuidingbu-hover {
+  background-position: 0 -192px;
+}
+
+/* line 84, ../../../ruby/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.logo-iconfont-shoujibangding {
+  background-position: 0 -256px;
+  height: 64px;
+  width: 64px;
+}
+
+/* line 84, ../../../ruby/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.logo-iconfont-shuaxin {
+  background-position: 0 -320px;
+  height: 32px;
+  width: 32px;
+}
+
+/* line 84, ../../../ruby/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.logo-iconfont-tuichu {
+  background-position: 0 -352px;
+  height: 32px;
+  width: 32px;
+}
+
+/* line 84, ../../../ruby/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.logo-iconfont-zhaohuimima {
+  background-position: 0 -384px;
+  height: 64px;
+  width: 64px;
+}
+
+/* line 84, ../../../ruby/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.logo-iconfont-zhifubao {
+  background-position: 0 -448px;
+  height: 64px;
+  width: 64px;
+}
+
+/* line 84, ../../../ruby/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.logo-m-index_16 {
+  background-position: 0 -512px;
+  height: 100px;
+  width: 100px;
+}
+
+/* line 84, ../../../ruby/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.logo-news_05 {
+  background-position: 0 -612px;
+  height: 108px;
+  width: 108px;
+}
+
+/* line 84, ../../../ruby/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.logo-news_06 {
+  background-position: 0 -720px;
+  height: 108px;
+  width: 108px;
+}
+
+/* line 84, ../../../ruby/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.logo-news_08 {
+  background-position: 0 -828px;
+  height: 108px;
+  width: 108px;
+}
+
+/* line 84, ../../../ruby/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.logo-qiandao {
+  background-position: 0 -936px;
+  height: 200px;
+  width: 200px;
+}
+
+/* line 9, ../sass/_icons.scss */
+.main-logo {
+  background-position: 0 -612px;
+  height: 108px;
+  width: 108px;
+}
+
+/* line 13, ../sass/screen.scss */
+.rounded {
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50);
+  opacity: 0.5;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  *zoom: 1;
+  *display: inline;
+}
+
+/* line 10, ../../../ruby/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/layout/_sticky-footer.scss */
+.footer html, .footer body {
+  height: 100%;
+}
+/* line 12, ../../../ruby/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/layout/_sticky-footer.scss */
+.footer #root {
+  clear: both;
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin-bottom: -72px;
+}
+/* line 18, ../../../ruby/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/layout/_sticky-footer.scss */
+.footer #root #root_footer {
+  height: 72px;
+}
+/* line 20, ../../../ruby/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/layout/_sticky-footer.scss */
+.footer #footer {
+  clear: both;
+  position: relative;
+  height: 72px;
+}
+
+/* line 21, ../sass/screen.scss */
+a {
+  color: #00c;
+}
+/* line 18, ../../../ruby/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/typography/links/_link-colors.scss */
+a:visited {
+  color: #ccc;
+}
+/* line 21, ../../../ruby/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/typography/links/_link-colors.scss */
+a:focus {
+  color: #cc0;
+}
+/* line 24, ../../../ruby/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/typography/links/_link-colors.scss */
+a:hover {
+  color: #c0c;
+}
+/* line 27, ../../../ruby/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/typography/links/_link-colors.scss */
+a:active {
+  color: #c0c;
+}
